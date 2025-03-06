@@ -11,9 +11,9 @@ interface Product {
 @Injectable({ providedIn: 'root' })
 export class ProductService {
   private products: Product[] = [
-    { id: 1, name: 'Laptop', price: 1000, description: 'High-performance laptop' },
-    { id: 2, name: 'Smartphone', price: 700, description: 'Latest model smartphone' },
-    { id: 3, name: 'Headphones', price: 150, description: 'Noise-canceling headphones' }
+    { id: 1, name: 'Macbook Air', price: 999, description: 'Remarkably light and less than half an inch thin High-performance laptop' },
+    { id: 2, name: 'Galaxy S25', price: 799, description: 'Latest galaxy smartphone with all new powerful processor & Galaxy AI' },
+    { id: 3, name: 'Sony XM5', price: 400, description: 'Industry-leading Noise-canceling headphones, Magnificent Sound, engineered to perfection, Crystal clear hands-free calling' }
   ];
 
   getProducts(): Observable<Product[]> {
